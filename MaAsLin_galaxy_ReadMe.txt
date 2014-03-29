@@ -2,7 +2,7 @@ Installation instructions for maaslin in a galaxy environment.
 These instructions require the Mercurial versioning system, galaxy, and an internet connection.
 
 1. In the  "galaxy-dist/tools" directory install maaslin by typing in a terminal:
-hg clone https://bitbucket.org/chuttenh/maaslin
+hg clone https://bitbucket.org/biobakery/maaslin
 
 2. Update member tool_conf.xml  in the galaxy directory adding the following: 
   <section name="maaslin" id="maaslin">
