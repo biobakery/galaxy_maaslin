@@ -15,7 +15,6 @@ hg clone https://bitbucket.org/biobakery/maaslin
 Update member tool_conf.xml  in the galaxy directory adding the following: 
 ```
   <section name="maaslin" id="maaslin">
-    <tool file="maaslin/galaxy/maaslin_input.xml"/>
     <tool file="maaslin/galaxy/maaslin.xml"/>
   </section>
 ```
