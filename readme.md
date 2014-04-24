@@ -1,29 +1,27 @@
-#Installation instructions for maaslin in a galaxy environment.
+Installation instructions for maaslin in a galaxy environment.
 
-For General infomation about maaslin please refer to:
-```
-https://bitbucket.org/biobakery/biobakery/wiki/maaslin
-```
+MaAslin is installed in Galaxy using the Admin tool of Galaxy.
 
-
-These instructions require the Mercurial versioning system, galaxy, and an internet connection.
-
-In the  "galaxy-dist/tools" directory install maaslin by typing in a terminal:
+In the 
+```Admin tool```
+ select 
 ```
-hg clone https://bitbucket.org/biobakery/maaslin
+   Search and browse tool sheds
 ```
-Update member tool_conf.xml  in the galaxy directory adding the following: 
+slect the tool shed and enter
 ```
-  <section name="maaslin" id="maaslin">
-    <tool file="maaslin/galaxy/maaslin.xml"/>
-  </section>
+maaslin
 ```
-Update member datatypes_conf.xml  in the galaxy directory adding the following:
+select
 ```
-	<datatype extension="maaslin" type="galaxy.datatypes.data:Text" subclass="true" display_in_upload="true"/>
+preview and install
 ```
 
-Copy members Figure1-Overview.png and Maaslin_Output.png  to /galaxy/static/images 
+NOTE:  You have to be an administrator in your Galaxy instance to install.
 
- Recycle galaxy
+For general reference about MaAslin refer to 
+```
+https://bitbucket.org/biobakery/maaslin
+```
+
 
