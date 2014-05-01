@@ -41,7 +41,10 @@
 	  <param name="min_abd" value="0.0001"  />
 	  <param name="min_samp" value="0.01"  />
 	  <param name="tool_option1" value="1"  />
-      <output name="out_file1" file="maaslin_output"  />
+         <output name="out_file1" file="maaslin_output"  />
+                <assert_contents>
+                   <has_text text="Variable     Feature Value   Coefficient     N       N.not.0 P.value Q.value" />
+                </assert_contents>
     </test>
   </tests>   
 
